@@ -84,9 +84,9 @@ function updateDice(value) {
 }
 
 function updateUI() {
-    elements.player.textContent = `Gracz: ${state.playerScore}`;
-    elements.computer.textContent = `Komputer: ${state.computerScore}`;
-    elements.total.textContent = `Suma: ${state.total}`;
+    elements.player.textContent = `Punkty gracza: ${state.playerScore}`;
+    elements.computer.textContent = `Punkty komputera: ${state.computerScore}`;
+    elements.total.textContent = `Suma punktów: ${state.total}`;
     historyEl.textContent = state.history.join(", ");
 }
 
